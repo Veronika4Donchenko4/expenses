@@ -1,18 +1,14 @@
 import React from 'react';
 import styles from './CostItems.module.css'
+import CostDate from '../costdate/CostDate';
 
-const CostItems = () => {
-
-  const costDate = new Date (2021, 2, 12);
-  const costDescription = "Freezer";
-  const costAmount = 999.99;
-
+const CostItems = (props) => {
   return (
     <div className={styles['cost-item']}>
-      <div>{costDate.toISOString()}</div>
+      <CostDate date={props.date} />
       <div className={styles['cost-item__description']}>
-        <h2>{costDescription}</h2>
-        <div className={styles['cost-item__price']}>{costAmount}$</div>
+        <h2>{props.description}</h2>
+        <div className={styles['cost-item__price']}>{props.amount}$</div>
       </div>
      </div>
   ); 
