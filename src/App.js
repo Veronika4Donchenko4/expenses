@@ -1,4 +1,4 @@
-import CostItems from "./components/CostItems";
+import CostItems from "./components/costitems/CostItems";
 
 
 function App() {
