@@ -1,4 +1,4 @@
-import React from 'react';
+import styles from "./CostDate.module.css"
 
 const CostDate = (props) => {
     const month = props.date.toLocaleString('en-EN', {
@@ -7,11 +7,11 @@ const CostDate = (props) => {
     const day = props.date.toLocaleString('en-EN', {
     month: '2-digit'});
   return (
-    <div>
+    <div className={styles['cost-date']}>
        <div>
-        <div>{month}</div>
-        <div>{year}</div>
-        <div>{day}</div>
+        <div className={styles['cost-date__month']}>{month}</div>
+        <div className={styles['cost-date__year']}>{year}</div>
+        <div className={styles['cost-date__day']}>{day}</div>
       </div>
     </div>
   )
