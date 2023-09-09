@@ -1,6 +1,6 @@
 import CostItems from "../costitems/CostItems";
 import styles from "./Costs.module.css";
-import Card from '../card/Card';
+import Card from '../UI/card/Card';
 
 const Costs = (props) => {
   return (
