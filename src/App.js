@@ -1,5 +1,6 @@
 import Costs from "./components/costs/Costs";
 import NewCost from "./components/CreateCost/newcost/NewCost";
+import CostsFilter from "./components/costsfilter/CostsFilter";
 
 function App() {
   const costs = [
@@ -29,7 +30,7 @@ function App() {
 
   return (
       <div>
-        <NewCost onAddCost={addCostHandler}/>
+      <NewCost onAddCost={addCostHandler}/>
       <Costs costs={costs}/>
       </div>
   );
