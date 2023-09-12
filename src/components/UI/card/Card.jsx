@@ -1,6 +1,6 @@
 import styles from "./Card.module.css"
 
-
+// This wrap conteiner 
 const Card = (props) => {
   const classes = `${styles.card} ${props.className}`
 
