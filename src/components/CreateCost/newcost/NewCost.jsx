@@ -1,6 +1,8 @@
 import CostForm from '../costform/CostForm';
 import styles from './NewCost.module.css'
 
+
+// data processing variable
 const NewCost = (props) => {
 
     const saveCostDataHandler = (inputCostData) => {
