@@ -24,3 +24,16 @@
 .new-cost__actions {
     text-align: left;
 }
+
+/* delete */
+.cost-item__descriptn{
+    .cost-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem;
+        margin: 1rem 0;
+        background-color: #bd8025;
+    }
+    
+}

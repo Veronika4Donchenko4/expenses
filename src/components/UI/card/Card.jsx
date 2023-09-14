@@ -8,3 +8,7 @@ const Card = (props) => {
 }
 
 export default Card
+
+
+
+// data processing variable

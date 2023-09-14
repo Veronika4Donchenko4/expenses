@@ -27,3 +27,17 @@
     border-color: #2a5b84;
     background-color: #778794;
 }
+
+
+/* delete */
+.cost-item__descriptn{
+    .cost-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem;
+        margin: 1rem 0;
+        background-color: #bd8025;
+    }
+    
+}
