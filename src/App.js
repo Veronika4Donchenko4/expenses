@@ -26,7 +26,6 @@ function App() {
  const addCostHandler = (cost) => {
   console.log('App Component')
   console.log(cost); 
-  // some comments
  }
 
 //  it's a root component
